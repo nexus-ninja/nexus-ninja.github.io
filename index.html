@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Vanta.js and Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
+</head>
+<body>
+    <div id="vanta-bg">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <div class="container home-content">
+                <div class="text-content">
+                    <h1>Hey There, I'm Radhika</h1>
+                    <p id="animated-text" class="typing"></p>
+                    <div class="icons">
+                        <a href="https://github.com/radhu20" target="_blank">
+                            <img src="github.jpg" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/radhika-aggarwal-1b9638190/" target="_blank">
+                            <img src="linkedin.jpg" alt="LinkedIn">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="resume.jpg" alt="Resume">
+                        </a>
+                        <a href="https://leetcode.com/u/21f3000850/" target="_blank">
+                            <img src="leetcode.png" alt="College Website">
+                        </a>
+                        <a href="https://ds.study.iitm.ac.in/student/21F3000850" target="_blank">
+                            <img src="college.png" alt="College Website">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about" class="white-bg">
+        <div class="container about-content">
+            <div class="left-section">
+                <img src="doodle.jpg" alt="Radhika's Photo">
+            </div>
+            <div class="right-section">
+                <h2>What do I do??</h2>
+                <br>
+                <p>Hello! I'm Radhika, a passionate researcher and a student of the intricate world of algorithms and graph theory, 
+                    currently pursuing a Master by Research at IIIT Bangalore. My academic journey also includes delving into data science through a degree in 
+                    Data Science and Applications from IIT Madras. My research focuses on developing, optimizing and understanding efficient algorithms that can solve 
+                    complex problems in real world. </p>
+        
+                    <p>Beyond the realms of academia, I have a profound love for creativity. Whether it's doodling 
+                    sketches that capture the essence of my thoughts or crafting digital art through graphic designing, creativity is a 
+                    significant part of my life. This blend of analytical rigor and artistic expression defines 
+                    who I am and drives my dual pursuit of innovation in technology and art.</p>
+                        
+                    <p>Through my work, I aspire to contribute meaningful insights to the field of algorithms and data science, 
+                    while also embracing and sharing my artistic endeavors. Thank you for visiting my site, and I look forward to 
+                    connecting with fellow researchers and creatives alike.</p>
+        
+                    <p><strong>P.S:</strong> If you are interested in a deeper dive into my research areas or would like to see my latest work in graph theory 
+                    and data science, please visit my blog. I regularly share updates, insights, and discussions that illuminate the 
+                    complexities and fascinations of my academic and creative pursuits. Join me in exploring the ever-evolving 
+                    world of algorithms and design!!</p>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="cream-bg">
+        <div class="container education-content">
+            <div class="left-section">
+                <h2>Educational Qualification</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>International Institute of Information Technology, Bangalore</h4>
+                            <h4>Master's in Science &#40;By Research&#41;</h4>
+                            <p>August 2023 - December 2025</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Science &#40;Algorithms and Graph Theory&#41;</h4>
+                            <p>CGPA: 2.82/4.00</p>
+                            <p>CGPA: 7.05/10.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>Indian Institute Of Technology, Madras</h4>
+                            <h4>Bachelor's of Science</h4>
+                            <p>September 2021 - December 2025</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Data Science and Applications</h4>
+                            <p>CGPA: 7.27/10.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>Shri Shankaracharya Technical Campus</h4>
+                            <h4>Bachelor's of Technology</h4>
+                            <p>August 2019 - June 2023</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Science and Engineering</h4>
+                            <p>CGPA: 8.55/10.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="relevant-course" class="white-bg">
+            <h2> Relevant Cousre Work</h2>
+            <div class="container relevant-course-content">
+                <div class="left-section">
+                    <h3>Core CS Courses</h3>
+                    <ul>
+                        <li><span class="tick">&#10003;</span> Algorithms</li>
+                        <li><span class="tick">&#10003;</span> Approximation Algorithms</li>
+                        <li><span class="tick">&#10003;</span> Parameterized Algorithms</li>
+                        <li><span class="tick">&#10003;</span> Graph Theory</li>
+                        <li><span class="tick">&#10003;</span> Software Production Engineering</li>
+                        <li><span class="tick">&#10003;</span> Mordern Application Developement</li>
+                    </ul>
+                </div>
+                <div class="right-section">
+                    <h3>Data Science Courses</h3>
+                    <ul>
+                        <li><span class="tick">&#10003;</span> Statistics for Data Science</li>
+                        <li><span class="tick">&#10003;</span> Mathematics for Data Science</li>
+                        <li><span class="tick">&#10003;</span> Machine Learning Foundations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    <section id="experience" class="white-bg">
+        <div class="container">
+            <h1>My Work Experience</h1>
+            <div class="timeline-2">
+                <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>International Institute of Information Technology, Bangalore</h3>
+                        <p>August 2023 - December 2025</p>
+                    </div>
+                    <div class="circle green"></div>
+                    <div class="right-content">
+                        <h4>Reseach Assistant&#40;GRAPH AND TOPOLOGY LAB&#41;</h4>
+                        <br>
+                        <ul><li> I am deeply engaged in the study and development of parameterized algorithms and approximation algorithms.</li>
+                       <li> My research involves exploring innovative methods to enhance the efficiency and effectiveness of algorithms, 
+                        aiming to address complex problems with precise and scalable solutions. </li>
+                    </div>
+                </div>
+                <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Self-Employed, Youtube</h3>
+                        <p>June 2024 - Present</p>
+                    </div>
+                    <div class="circle yellow"></div>
+                    <div class="right-content">
+                        <h4>Content Creation</h4>
+                        <br>
+                        <ul><li>At Nexus Ninja, a YouTube channel I run with a colleague, we explore and share the latest research in 
+                            AI/ML, Theoretical Computer Science, and Data Science. </li>
+                            <li>Our channel is dedicated to demystifying complex concepts in AI/ML, algorithm design and analysis, and optimization techniques 
+                            <li>Through our videos, we clarify foundational ideas in many untouched areas and demonstrate practical applications 
+                            of various theoretical approaches.</li></ul>
+                    </div>
+                </div>
+           <!--     <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Global Solution</h3>
+                        <p>Feb 2019 - Mar 2020</p>
+                    </div>
+                    <div class="circle red"></div>
+                    <div class="right-content">
+                        <h4>Sr. Product Designer</h4>
+                        <p>Find Product Photography Canada. Large Selection. Always Sale. Cheap Prices. Full Offer. Save Online. Compare Online. Simple Search. The Best Price. Compare Simply.</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="cream-bg">
+        <h2>Technical Skills</h2>
+        <div class="container skills-content">
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Core CS</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skill-name">DSA</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skill-name">Devops Tools</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">SQL, PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 40%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Management Skills</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">Project Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Team Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="work" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>My Latest Projects</h2>
+                <a href="https://github.com/radhu20?tab=repositories" class="explore-more">Explore More</a>
+            </div>
+            <div class="works-container">
+                <div class="works">
+                    <div class="work-item yellow">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Book-Wise</div>
+                                <img src="project1.png" alt=App Design">
+                            </div>
+                            <div class="back">
+                                <p> Developed 'BookWise', an online platform providing a vast selection of books and personalized 
+                                    recommendations using similarity scoring algorithms. Employed Jenkins, Kubernetes, Ansible, 
+                                    and Docker, integrating CI/CD best practices to optimize development workflows, ensuring seamless 
+                                    and scalable user experiences. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Image Annotator</div>
+                                <img src="project2.png" alt="Web Design">
+                            </div>
+                            <div class="back">
+                                <p>It enhance image labeling. Click on an object, choose a predefined class or enter a custom comment. 
+                                    Supports uploading single files or entire folders. Features include undo and redo options for 
+                                    efficient workflow adjustments. Ideal for streamlining the annotation process in image-based 
+                                    projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item light-green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Novel Approach for Location Privacy Preservation</div>
+                                <img src="project3.png" alt="Brand Identity">
+                            </div>
+                            <div class="back">
+                                <p>Developed an innovative method for enhancing location privacy that bypasses the need for third-party 
+                                    anonymizing servers. This project employs multiple private blockchains to fragment and distribute 
+                                    user transaction records, significantly bolstering location privacy without compromising service 
+                                    quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item red">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Stay Tuned for More Innovations!</div>
+                                <img src="stay tuned.jpg" alt="Graphic Design">
+                            </div>
+                            <div class="back">
+                                <p>Keep an eye on this space! I'm continuously working on exciting new projects that 
+                                    push the boundaries of technology and innovation. From advancements in AI to cutting-edge 
+                                    applications in augmented reality, there’s always something thrilling on the horizon. 
+                                    Stay connected and don’t miss out on the next big thing!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item blue">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Stay Tuned for More Innovations!</div>
+                                <img src="stay tuned.jpg" alt="UI/UX Design">
+                            </div>
+                            <div class="back">
+                                <p>Keep an eye on this space! I'm continuously working on exciting new projects that 
+                                    push the boundaries of technology and innovation. From advancements in AI to cutting-edge 
+                                    applications in augmented reality, there’s always something thrilling on the horizon. 
+                                    Stay connected and don’t miss out on the next big thing!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-nav">
+                <button class="scroll-left">Previous</button>
+                <button class="scroll-right">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="achievements" class="cream-bg">
+        <div class="container">
+            <h2>Achievements and Participations</h2>
+            <div class="achievements-container">
+                <div class="achievement-item">
+                    <h3>93.3 Percentile, Graduate Aptitude Test in Engineering (GATE) CS (Computer Science ) - 2024</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>Attended CALDAM Conference at IIT Bhilai, gaining insights into graph algorithms, algorithms, and complexity</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="publications" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>Publications</h2>
+            </div>
+            <div class="publications-container">
+                <div class="publication-item">
+                    <div class="description">
+                        <p>Stay tuned for the upcoming publication of my upcoming publication. As an MS by Research student,
+                            I am exploring innovative methodologies in parameterized and approximation algorithms. 
+                            This work promises to provide new insights and valuable contributions to the field. Be 
+                            sure to check back for updates and access to the full study!!</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Exciting Research Publication Coming Soon!</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="description">
+                        <p>Stay tuned for the upcoming publication of my upcoming publication. As an MS by Research student,
+                            I am exploring innovative methodologies in parameterized and approximation algorithms. 
+                            This work promises to provide new insights and valuable contributions to the field. Be 
+                            sure to check back for updates and access to the full study!!</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Exciting Research Publication Coming Soon!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="blogs" class="yellow-bg">
+        <div class="container blogs-content">
+            <h1 class="section-title">CHECK THIS OUT!!</h1>
+            <div class="blogs-items">
+                <div class="blog-item">
+                    <a href="blog1.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog2.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog3.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog4.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="caption-link.html" class="link-caption">Link to the Blogs!</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="white-bg">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="left-section">
+                    <h2>Start by saying Hi!!</h2>
+                    <p>Tired of contact form? Send me an email!!</p>
+                    <p>Email: <a href="mailto:radhikaaggarwal2015@gmail.com">radhikaaggarwal2015@gmail.com</a></p>
+                </div>
+                <div class="right-section">
+                    <form action="mailto:radhikaaggarwal2015@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <footer>
+        <p>&copy; 2024. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        VANTA.GLOBE({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x0d0d2b,
+            color: 0xffcf53
+        });
+
+        document.addEventListener('DOMContentLoaded', function(){
+            const textElement = document.getElementById('animated-text');
+            const phrases = ["Optimization Expert & Algorithmic Developer", "Creative Designer by Passion"];
+            let currentPhraseIndex = 0;
+            let currentCharIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentPhrase = phrases[currentPhraseIndex];
+                if (isDeleting) {
+                    currentCharIndex--;
+                } else {
+                    currentCharIndex++;
+                }
+
+                textElement.textContent = currentPhrase.substring(0, currentCharIndex);
+
+                if (!isDeleting && currentCharIndex === currentPhrase.length) {
+                    isDeleting = true;
+                    setTimeout(type, 2000);  // Pause before deleting
+                } else if (isDeleting && currentCharIndex === 0) {
+                    isDeleting = false;
+                    currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                    setTimeout(type, 500);  // Pause before typing the next phrase
+                } else {
+                    setTimeout(type, isDeleting ? 50 : 100);
+                }
+            }
+
+            type();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollContainer = document.querySelector('.works-container');
+            const scrollLeft = document.querySelector('.scroll-left');
+            const scrollRight = document.querySelector('.scroll-right');
+            const workItems = document.querySelectorAll('.work-item');
+
+            let currentIndex = 0;
+            const maxIndex = workItems.length - 3; // We show 3 items at a time
+
+            function updateScrollPosition() {
+                const offset = currentIndex * (scrollContainer.clientWidth / 3);
+                scrollContainer.scrollTo({
+                    left: offset,
+                    behavior: 'smooth'
+                });
+            }
+
+            scrollLeft.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                }
+                updateScrollPosition();
+            });
+
+            scrollRight.addEventListener('click', () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                }
+                updateScrollPosition();
+            });
+        });
+    </script>
+</body>
+</html>
